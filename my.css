@@ -13,7 +13,7 @@ body {
 
 main,
 main figure {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ main figure {
 main figure.image img {
     border-radius: 50%;
     object-fit: cover;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 main div.links a {
