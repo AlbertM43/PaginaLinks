@@ -10,4 +10,8 @@
     main figure.image {
         width: 80%;
     }
+
+    main figure.image {
+        margin-bottom: 10%;
+    }
 }

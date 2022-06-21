@@ -51,11 +51,11 @@ main figure.image figcaption p {
 }
 
 main footer {
-    margin-top: 13%;
+    margin-top: 16%;
 }
 
 main figure.image {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 main div.links a:hover {
