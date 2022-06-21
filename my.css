@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(115, 239, 0);
+}
+
+main,
+main figure {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main figure.image img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;
+}
+
+main div.links a {
+    display: block;
+    padding: 20px 350px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: -2px -2px 10px rgba(86, 153, 47, 0.896), 4px 4px 10px rgba(0, 0, 0, 0.097);
+    transition: transform 0.2s;
+}
+
+main figure.image figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main figure.image figcaption h2,
+main figure.image figcaption p {
+    margin: 0;
+    color: rgb(99, 99, 99);
+}
+
+main footer {
+    margin-top: 16%;
+}
+
+main figure.image {
+    margin-bottom: 3%;
+}
+
+main div.links a:hover {
+    background-color: rgba(0, 0, 0, 0.269);
+    transform: translateY(-5px);
+}
