@@ -13,7 +13,7 @@ body {
 
 main,
 main figure {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
