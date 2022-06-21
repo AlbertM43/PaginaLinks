@@ -4,6 +4,10 @@
     }
 
     main footer {
-        margin: 20% 0 0 0;
+        margin: 25% 0 0 0;
+    }
+
+    main figure.image {
+        width: 80%;
     }
 }
