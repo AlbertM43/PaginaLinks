@@ -1,0 +1,12 @@
+main,
+main figure,
+main div.links,
+main div.links a {
+    border: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+    main div.links a {
+        padding: 20px 20px;
+    }
+}
